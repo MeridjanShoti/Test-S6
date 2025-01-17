@@ -13,11 +13,11 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark text-light">
     <div class="container-fluid px-0">
       <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-dark">
+          <div class="container-fluid px-0">
             <a class="navbar-brand" href="#"><img src="./assets/netflix_logo.png" alt="logo" width="100px" /></a>
             <button
               class="navbar-toggler"
@@ -50,7 +50,7 @@
               </ul>
               <div class="d-flex align-items-center">
                 <form class="d-flex align-items-center" role="search">
-                  <span data-bs-toggle="collapse" data-bs-target="#search"> lente </span>
+                  <span data-bs-toggle="collapse" data-bs-target="#search"> <i class="bi bi-search"></i></span>
                   <input
                     class="form-control dropdown collapse"
                     id="search"
@@ -62,35 +62,33 @@
                 </form>
                 <span class="mx-2"><a href="#">KIDS</a></span>
                 <span class="mx-2"><a href="#">campanella</a></span>
-                <div class="dropdown show">
+                <div class="dropdown">
                   <a
                     class="btn btn-dark dropdown-toggle"
                     href="#"
                     role="button"
-                    id="dropdownMenuLink"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
+                    data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     <img src="./assets/avatar.png" alt="propic" width="25px" />
                   </a>
 
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Edit Profile</a>
-                    <a class="dropdown-item" href="#">Settings</a>
-                    <a class="dropdown-item" href="#">Logout</a>
-                  </div>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </nav>
       </header>
-      <div class="row">
+      <div class="row text-light">
         <div class="col">
-          <h1>TV Shows</h1>
+          <h1 class="fs-3">TV Shows</h1>
           <div class="dropdown">
-            <button class="btn btn-dark border-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            <button class="btn btn-dark border-light dropdown-toggle mx-2" type="button" data-bs-toggle="dropdown">
               Genres
             </button>
             <ul class="dropdown-menu">
@@ -102,21 +100,21 @@
               <li><a class="dropdown-item" href="#">Documentary</a></li>
             </ul>
           </div>
-          <div class="col">
-            <span>icona</span>
-            <span>icona</span>
+          <div class="col d-flex align-items-center justify-content-end">
+            <span class="px-2 border border-light"><i class="bi bi-text-left"></i></span>
+            <span class="px-2 border border-light"><i class="bi bi-grid-fill"></i></span>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col">
-          <h2>Trending Now</h2>
+        <div class="col text-start text-light">
+          <h2 class="fs-5">Trending Now</h2>
         </div>
       </div>
       <div id="carosello1" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row flex-nowrap flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -162,7 +160,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -208,7 +206,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -265,13 +263,13 @@
       </div>
       <div class="row">
         <div class="col">
-          <h2>Watch It Again</h2>
+          <h2 class="fs-5">Watch It Again</h2>
         </div>
       </div>
       <div id="carosello2" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row flex-nowrap flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -317,7 +315,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -363,7 +361,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -420,13 +418,13 @@
       </div>
       <div class="row">
         <div class="col">
-          <h2>New Releases</h2>
+          <h2 class="fs-5">New Releases</h2>
         </div>
       </div>
       <div id="carosello3" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row flex-nowrap flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -472,7 +470,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
@@ -518,7 +516,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap py-3">
               <div class="col-6 col-md-4 col-lg-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/1200px-Shrek_%28film%29.png"
