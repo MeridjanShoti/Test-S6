@@ -34,3 +34,6 @@ footer ul {
   width: 25px;
   height: 25px;
 }
+.darker {
+  background-color: #333333;
+}
