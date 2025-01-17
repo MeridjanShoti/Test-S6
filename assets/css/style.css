@@ -45,3 +45,6 @@ footer ul {
 .logo {
   max-height: 30px;
 }
+.settingsPage p {
+  margin-bottom: 0.2rem;
+}
