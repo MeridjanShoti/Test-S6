@@ -24,7 +24,7 @@
         </nav>
       </header>
     </div>
-    <div class="container w-50 mt-5">
+    <div class="container w-40 mt-5">
       <h1>EDIT PROFILE</h1>
       <hr />
       <div class="row pt-2 gap-3">
@@ -38,8 +38,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-8 px-0">
-          <div class="bg-secondary px-2 py-1 fs-5">Strive Student</div>
+        <div class="col-12 col-md px-0">
+          <div class="bg-secondary px-2 py-1 fs-5 w-75">Strive Student</div>
           <p class="text-secondary fs-5 mt-5">Language:</p>
           <select class="bg-black rounded-0 text-light" name="Language" id="Language">
             <option value="English">English</option>
@@ -53,19 +53,29 @@
           <button class="border border-secondary text-secondary bg-dark px-3">EDIT</button>
           <hr />
           <p class="text-secondary fs-5">Autoplay Controls</p>
-          <input type="checkbox" id="next" />
+          <input
+            type="checkbox"
+            id="nextEpisode"
+            class="form-check-input rounded-0 border border-secondary bg-secondary bg-dark p-2 fw-bold"
+          />
           <label for="next">Autoplay next episode in a series on all devices</label>
           <br />
-          <input type="checkbox" />
-          <label for="next">Autoplay previews while browsing on all devices</label>
+          <input
+            type="checkbox"
+            id="previews"
+            class="form-check-input rounded-0 border border-secondary bg-secondary bg-dark p-2 fw-bold"
+          />
+          <label for="previews">Autoplay previews while browsing on all devices</label>
         </div>
       </div>
-      <hr />
       <div class="row">
-        <div class="d-flex justify-content-between col-10 flex-start">
-          <button>SAVE</button>
-          <button>CANCEL</button>
-          <button>DELETE PROFILE</button>
+        <div class="col-12">
+          <hr />
+          <div class="d-flex justify-content-center justify-content-md-between flex-wrap flex-md-nowrap gap-2">
+            <button class="px-2 w-75 w-md-25 fs-6 fw-bold border border-black bg-light">SAVE</button>
+            <button class="px-2 w-75 w-md-25 fs-6 text-light border border-secondary bg-dark">CANCEL</button>
+            <button class="px-2 w-75 w-md-25 fs-6 text-light border border-secondary bg-dark">DELETE PROFILE</button>
+          </div>
         </div>
       </div>
     </div>
