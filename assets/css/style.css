@@ -1,0 +1,18 @@
+.carousel img {
+  padding-inline: 1px;
+}
+.carousel div {
+  padding: 0;
+}
+header a,
+footer a {
+  text-decoration: none;
+  color: inherit !important;
+}
+footer ul {
+  list-style: none;
+  font-size: 0.7em;
+  li {
+    margin: 0.4rem 0;
+  }
+}
