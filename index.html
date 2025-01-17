@@ -48,10 +48,40 @@
                   <a class="nav-link" href="#">My List</a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+              <div class="d-flex align-items-center">
+                <form class="d-flex align-items-center" role="search">
+                  <span data-bs-toggle="collapse" data-bs-target="#search"> lente </span>
+                  <input
+                    class="form-control dropdown collapse"
+                    id="search"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    data-bs-toggle="collapse"
+                  />
+                </form>
+                <span class="mx-2"><a href="#">KIDS</a></span>
+                <span class="mx-2"><a href="#">campanella</a></span>
+                <div class="dropdown show">
+                  <a
+                    class="btn btn-dark dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <img src="./assets/avatar.png" alt="propic" width="25px" />
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Edit Profile</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </nav>
