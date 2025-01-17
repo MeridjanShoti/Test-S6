@@ -15,7 +15,138 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <h1>Settings</h1>
+    <div class="container-fluid px-2">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-black text-light">
+          <div class="container-fluid px-0">
+            <a class="navbar-brand" href="index.html"
+              ><img src="./assets/netflix_logo.png" alt="logo" width="100px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">TV Shows</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Recently Added</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My List</a>
+                </li>
+              </ul>
+              <div class="d-flex align-items-center">
+                <form class="d-flex align-items-center" role="search">
+                  <span data-bs-toggle="collapse" data-bs-target="#search"> <i class="bi bi-search"></i></span>
+                  <input
+                    class="form-control dropdown collapse"
+                    id="search"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    data-bs-toggle="collapse"
+                  />
+                </form>
+                <span class="mx-2"
+                  ><a href="#"><img src="./assets/kids_icon.png" alt="kids" width="25px" /></a
+                ></span>
+                <div class="dropdown">
+                  <a
+                    class="btn btn-black dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="./assets/avatar.png" alt="propic" width="25px" />
+                  </a>
+
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="edit_profile.html">Edit Profile</a></li>
+                    <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+                    <li><a class="dropdown-item" href="https://www.netflix.com/">Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container w-50 text-secondary mt-5">
+        <h1 class="text-black">Account</h1>
+        <hr />
+        <div class="row">
+          <div class="col-3">
+            <p>MEMBERSHIP &AMP; BILLING</p>
+            <button class="border-1 border-light">Cancel Membership</button>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col text-start">
+                <p class="text-black fw-bold">student@strive.school</p>
+                <p>Password: ********</p>
+                <p>Phone: 321 044 1279</p>
+              </div>
+              <div class="col text-end text-primary">
+                <p>Change Account email</p>
+                <p>Change Password</p>
+                <p>Change phone number</p>
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col text-start">
+                <p class="text-black fw-bold">
+                  <span
+                    ><img
+                      src="https://cdn.shopify.com/s/files/1/0388/3771/4989/files/PAYPAL_LOGO_480x480.png?v=1650301781"
+                      alt="logo"
+                      class="logo"
+                  /></span>
+                  admin@strive.school
+                </p>
+              </div>
+              <div class="col text-end text-primary">
+                <p>Update payment info</p>
+                <p>Billing details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-3">PLAN DETAILS</div>
+          <div class="col"></div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-3">SETTINGS</div>
+          <div class="col"></div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-3">MY PROFILE</div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

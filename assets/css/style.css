@@ -42,3 +42,6 @@ footer ul {
 .w-40 {
   width: 40%;
 }
+.logo {
+  max-height: 30px;
+}
